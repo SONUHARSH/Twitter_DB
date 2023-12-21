@@ -1,8 +1,8 @@
 import TweetService from "../services/tweet-service.js";
 
-import upload from '../config/file-upload-s3-config.js';
+//import upload from '../config/file-upload-s3-config.js';
 
-const singleUploader = upload.single('image');
+//const singleUploader = upload.single('image');
 
 const tweetService = new TweetService();
 
